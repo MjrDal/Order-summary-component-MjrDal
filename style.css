@@ -88,6 +88,10 @@
     margin-top: 40px;
 }
 
+.bp-proceed{
+    text-decoration: none;
+}
+
 .bp-proceed p{
     font-size: 16px;
     font-weight: 800;
@@ -97,5 +101,10 @@
 
 .bp-cancel{
     margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.bp-cancel a{
+    text-decoration: none;
     color: hsl(224, 23%, 55%);
 }
