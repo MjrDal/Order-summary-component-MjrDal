@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display';
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 600px;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.box h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+.txt{
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.card{
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    background: url(images/icon-music.svg) no-repeat;
+    display: flex;
+}
+
+.box-price{
+    margin-left: 50px;
+}
+
+.tempo{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.price{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.bp-change{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.bp-change a{
+    color: hsl(245, 75%, 52%);
+}
+
+.bp-proceed{
+    width: 320px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bp-proceed p{
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    margin-top: 15px;
+}
+
+.bp-cancel{
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
